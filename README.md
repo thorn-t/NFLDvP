@@ -5,6 +5,7 @@ This is a desktop application that shows the fantasy points allowed weekly by ea
 1. Clone the repo
 2. Put the "NFL Data" folder directly into the C:\ directory. The file path should be "C:\NFL Data".
 3. Open the .sln with Visual Studio 2022 and run
+4. Select a team defense and year then click search.
 
 ## Program walkthrough
 
