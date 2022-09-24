@@ -14,53 +14,6 @@
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         STeam.Rows.Add(16)
-        'Dim loadedWeeksCount As Integer
-        'Dim loadedWeeksToFile As String
-
-        'loadedWeeksCount = 1
-
-        'With week1Data
-        '    .Columns.Add("Week", System.Type.GetType("System.String"))
-        '    .Columns.Add("Year", System.Type.GetType("System.String"))
-        '    .Columns.Add("GID", System.Type.GetType("System.String"))
-        '    .Columns.Add("Name", System.Type.GetType("System.String"))
-        '    .Columns.Add("Pos", System.Type.GetType("System.String"))
-        '    .Columns.Add("Team", System.Type.GetType("System.String"))
-        '    .Columns.Add("h/a", System.Type.GetType("System.String"))
-        '    .Columns.Add("Oppt", System.Type.GetType("System.String"))
-        '    .Columns.Add("DK pts", System.Type.GetType("System.Double"))
-        '    .Columns.Add("DK Salary", System.Type.GetType("System.String"))
-        'End With
-
-        'Do Until loadedWeeksCount = 17
-        '    loadedWeeksToFile = loadedWeeksCount
-
-        '    Dim thereader As New IO.StreamReader("C:\Users\Trevor\Desktop\NFL Data\2017\Week" + loadedWeeksToFile + ".txt", System.Text.Encoding.Default)
-        '    Dim sline As String = ""
-
-        '    Do
-        '        sline = thereader.ReadLine
-        '        If sline Is Nothing Then Exit Do
-        '        Dim thecolumns() As String = sline.Split(";")
-        '        Dim newrow As DataRow = week1Data.NewRow
-        '        newrow("Week") = thecolumns(0)
-        '        newrow("Year") = thecolumns(1)
-        '        newrow("GID") = thecolumns(2)
-        '        newrow("Name") = thecolumns(3)
-        '        newrow("Pos") = thecolumns(4)
-        '        newrow("Team") = thecolumns(5)
-        '        newrow("h/a") = thecolumns(6)
-        '        newrow("Oppt") = thecolumns(7)
-        '        newrow("DK pts") = thecolumns(8)
-        '        newrow("DK Salary") = thecolumns(9)
-        '        week1Data.Rows.Add(newrow)
-        '    Loop
-
-        '    thereader.Close()
-
-        '    DataGridView1.DataSource = week1Data
-        '    loadedWeeksCount += 1
-        'Loop
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
